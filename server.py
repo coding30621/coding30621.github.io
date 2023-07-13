@@ -18,8 +18,9 @@ def index():
     <title>3-6 온라인 소리함</title>
 </head>
 <body>
+<h2>3-6 온라인 소리함</h2>
 <form action="/" method="POST">
-    <p><textarea rows="4" cols="50" name="input" placeholder="입력란"></textarea></p>
+    <p><textarea rows="10" cols="40" name="input" placeholder="입력란"></textarea></p>
     <p><input type="submit" value="확인"></p>
 </form>
 </body>
@@ -73,4 +74,4 @@ def admin():
 '''
 
 
-app.run(debug=True)
+app.run()
